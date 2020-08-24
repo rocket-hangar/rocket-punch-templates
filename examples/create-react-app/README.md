@@ -65,8 +65,8 @@ sample-component:
 ## 6. Build and publish
 
 ```sh
-npm run pack # or npx rocket-punch build
-npm run publish # or npx rocket-punch publish 
+yarn run pack # or npx rocket-punch build
+yarn run publish # or npx rocket-punch publish 
 ```
 
 ## 7. Import your package to your App by absolute path
