@@ -3,7 +3,7 @@
 ## 1. Create a project and install `rocket-punch`
 
 ```sh
-create-react-app my-project --typescript
+npx create-react-app my-project --typescript
 
 cd my-project
 
@@ -72,6 +72,7 @@ npm run publish # or npx rocket-punch publish
 ## 7. Import your package to your App by absolute path
 
 ```diff
+// src/App.tsx
 import React from 'react';
 import { SampleComponent } from 'sample-component';
 import logo from './logo.svg';

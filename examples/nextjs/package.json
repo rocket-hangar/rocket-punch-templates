@@ -1,0 +1,25 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "pack": "rocket-punch build --source-root .",
+    "publish": "rocket-punch publish --source-root ."
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "rocket-punch": "^2.2.1",
+    "typescript": "3.9.7"
+  },
+  "license": "ISC"
+}
