@@ -40,7 +40,7 @@ Add scripts
 ```tsx
 // sample-component/index.tsx
 // `sample-component` is your package name
-import React from 'react';
+import React from "react";
 
 interface Props {
   label: string;
@@ -58,7 +58,7 @@ export function Hi({ label }: Props) {
 ## 5. Create the `.packages.yaml`
 
 ```yaml
-# listing your component `sample-component` 
+# listing your component `sample-component`
 sample-component:
   version: 1.1.0
   module: esm
@@ -68,7 +68,7 @@ sample-component:
 
 ```sh
 yarn run pack # or npx rocket-punch build
-yarn run publish # or npx rocket-punch publish 
+yarn run publish # or npx rocket-punch publish
 ```
 
 ## 7. Import your package to your App by absolute path
@@ -93,7 +93,7 @@ const IndexPage = () => (
 export default IndexPage
 ```
 
----------------------------------------------------------------------------------------------
+---
 
 # TypeScript Next.js example
 
@@ -142,15 +142,11 @@ Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&ut
 
 This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
 
-```
-npm install --save-dev typescript
-```
+    npm install --save-dev typescript
 
 To enable TypeScript's features, we install the type declarations for React and Node.
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+    npm install --save-dev @types/react @types/react-dom @types/node
 
 When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
 

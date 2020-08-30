@@ -40,23 +40,21 @@ Add scripts
 ```tsx
 // src/sample-component/index.tsx
 // `sample-component` is your package name
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
 export interface SampleComponentProps {
   children: ReactNode;
 }
 
-export function SampleComponent({children}: SampleComponentProps) {
-  return (
-    <p>{children}</p>
-  );
+export function SampleComponent({ children }: SampleComponentProps) {
+  return <p>{children}</p>;
 }
 ```
 
 ## 5. Create the `.packages.yaml`
 
 ```yaml
-# listing your component `sample-component` 
+# listing your component `sample-component`
 sample-component:
   version: 1.1.0
   module: esm
@@ -66,7 +64,7 @@ sample-component:
 
 ```sh
 yarn run pack # or npx rocket-punch build
-yarn run publish # or npx rocket-punch publish 
+yarn run publish # or npx rocket-punch publish
 ```
 
 ## 7. Import your package to your App by absolute path
@@ -104,7 +102,7 @@ function App() {
 export default App;
 ```
 
---------------------------------------------------------------------------------------------------------
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -115,7 +113,7 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open <http://localhost:3000> to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
