@@ -40,7 +40,7 @@ Add scripts
 ```tsx
 // sample-component/index.tsx
 // `sample-component` is your package name
-import React from "react";
+import React from 'react';
 
 interface Props {
   label: string;

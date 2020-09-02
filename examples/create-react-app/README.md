@@ -40,7 +40,7 @@ Add scripts
 ```tsx
 // src/sample-component/index.tsx
 // `sample-component` is your package name
-import React, { ReactNode } from "react";
+import React, { ReactNode } from 'react';
 
 export interface SampleComponentProps {
   children: ReactNode;

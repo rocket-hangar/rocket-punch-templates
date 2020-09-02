@@ -38,7 +38,7 @@ Add scripts
 ```jsx
 // src/sample-component/index.jsx
 // `sample-component` is your package name
-import React from "react";
+import React from 'react';
 
 export function SampleComponent({ text }) {
   return <div>👋 {text}</div>;
@@ -66,12 +66,12 @@ npm run publish # or npx rocket-punch publish
 Add `gatsy-node.js`
 
 ```js
-const path = require("path");
+const path = require('path');
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
-      modules: [path.resolve(__dirname, "src"), "node_modules"],
+      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     },
   });
 };
