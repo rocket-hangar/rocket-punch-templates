@@ -18,7 +18,7 @@
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
-    "rocket-punch": "^2.2.1",
+    "rocket-punch": "^2.3.1",
     "typescript": "3.9.7"
   },
   "license": "ISC"

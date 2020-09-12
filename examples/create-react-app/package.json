@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "rocket-punch": "^2.2.1"
+    "rocket-punch": "^2.3.1"
   }
 }
