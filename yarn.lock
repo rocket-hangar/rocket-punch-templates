@@ -2627,10 +2627,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@ssen/collect-dependencies@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/collect-dependencies/-/collect-dependencies-2.4.0.tgz#5bcfb770fa53abbfda53eff5cf8fc7c8b78b8a7f"
-  integrity sha512-1GFa1I4AQkdhnjqV4wnKrD2zK+0yCwyJR0rSvO6SZI9GyDBGkgOZsQ8jW0bsL51xET3qWQ3bPadqwR7wg6NDYg==
+"@ssen/collect-dependencies@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/collect-dependencies/-/collect-dependencies-2.4.1.tgz#bdc2832993c17fa3803835c7cc27addebccd6a8b"
+  integrity sha512-wCAdf9TV1EbkrPs5kQxPB0fGD+xnAk7BszKrX8Pn/o8Ns7hUd63UHojpS1ooElQBSnzdq+i4cZRKb/atMNV4yg==
   dependencies:
     type-fest "^0.20.2"
     typescript "^4.1.3"
@@ -2652,10 +2652,10 @@
     react ">=16.0.0"
     typescript ">=3.8.0"
 
-"@ssen/extended-compiler-host@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/extended-compiler-host/-/extended-compiler-host-2.4.0.tgz#bed5fd68a1e28446bf87e742f5c31ac65f448711"
-  integrity sha512-Co4HtjVtx7bKpholby08AneUHD3NmaBq1/nV7y5eOpfayux76VbaVGGqnHVwD5ADTp8WawUxoOWg26gkEHNhmQ==
+"@ssen/extended-compiler-host@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/extended-compiler-host/-/extended-compiler-host-2.4.1.tgz#6a8117a2a2f3ad20f97d983c76c4fab7911f9da9"
+  integrity sha512-P5Z3Ec4IDLkbrR62WZuQzMs1Xqp+gycPaFvwrggLi98qHCLK9Yl3BDBtDwPAtaxKPi86vO7207soThB0H7g29g==
   dependencies:
     "@svgr/plugin-jsx" "^5.5.0"
     fs-extra "^9.1.0"
@@ -2664,31 +2664,31 @@
     react "^17.0.1"
     typescript "^4.1.3"
 
-"@ssen/flat-package-name@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/flat-package-name/-/flat-package-name-2.4.0.tgz#2951034f19f32f40b6a49bb340cd667c664d1f42"
-  integrity sha512-2Jvzg0cUfOo6F/rhMjxgK2QL/eGRcA37q2UxhmlLH/G6xQpb0izVkWY6/61Nyo/V/PUKQ0M/HxFCPQkHlsGc8g==
+"@ssen/flat-package-name@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/flat-package-name/-/flat-package-name-2.4.1.tgz#42d7a9adbb139a4992ecde5e3821d4ba4f58bbe7"
+  integrity sha512-fiuNX4OHgAbINvF/4JtEmU7wtrT7/zM0nJusOaNMgR0guJhWCnHcz/8Ev0YHbtrEH+RglvQddThJ2+9sr8Syeg==
 
-"@ssen/import-path-rewrite-compiler-host@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/import-path-rewrite-compiler-host/-/import-path-rewrite-compiler-host-2.4.0.tgz#afe9b2326f8dd559a1f1e1a885dedc90df61ba4b"
-  integrity sha512-+xHQbtJLyIzy4itX7lx1EhsRV0KJFsD1xZmyUzT033DZQNIXtYi5eXNykjgzDTClA8WacryauovYky5soy4O1A==
+"@ssen/import-path-rewrite-compiler-host@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/import-path-rewrite-compiler-host/-/import-path-rewrite-compiler-host-2.4.1.tgz#d772b3168544b115a7ae0a9a9dd8dd92252ca76d"
+  integrity sha512-fQQUhWbiBV289UMmriRmGOp0foMgkQzoupf4vtPiXZwexqcNM2TWNCQlmPt2yzJKAhZ5vTL05O5KrEon9aJuOg==
   dependencies:
-    "@ssen/import-path-rewrite" "^2.4.0"
+    "@ssen/import-path-rewrite" "^2.4.1"
     typescript "^4.1.3"
 
-"@ssen/import-path-rewrite@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/import-path-rewrite/-/import-path-rewrite-2.4.0.tgz#318e6e643bacb469504c56eb869987c8b58c1e63"
-  integrity sha512-wdV5igw/gEgp+KpEltoQZsp75+pd6FqfYK/9kM3ZaWZEX4SMlhZe2b8qsMAIbde14YpeKnfYKmlO5C5g7kEJ+w==
+"@ssen/import-path-rewrite@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/import-path-rewrite/-/import-path-rewrite-2.4.1.tgz#5d0bab97eafc46948411d318732053aae8bde82f"
+  integrity sha512-blBejWupwBHlGoqp6gGPluOkDqEUpr43U9dLlMF31IHXEflF0IMg0srCRmPb0mxlLa+L2EXFcHyVP3k/VeKrTg==
   dependencies:
-    "@ssen/rewrite-src-path" "^2.4.0"
+    "@ssen/rewrite-src-path" "^2.4.1"
     typescript "^4.1.3"
 
-"@ssen/jest-transform@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/jest-transform/-/jest-transform-2.4.0.tgz#ed241f2c79d048065d1b9b47ba4166fda37749ab"
-  integrity sha512-4Z4x2UNOMCy909tiB3V/RR+ZUsBtd1fW9VXWeMSVIPpqFJ+sKCaMHPTXkSHq/YyCeKZ5lPaw+w3IcpabxJWizA==
+"@ssen/jest-transform@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/jest-transform/-/jest-transform-2.4.1.tgz#9b6a606640e0d344f21ef7f487dab364863ec89c"
+  integrity sha512-9ZO8isCJymNEPTsOVPcpIvXjTYprcN1sxpgT2RIvNBWrybh30REPNlm7+AMJ/lLb9vml9VZIpzreiCyt3P2Hqg==
   dependencies:
     "@svgr/plugin-jsx" "^5.5.0"
     js-yaml "^4.0.0"
@@ -2709,34 +2709,42 @@
     glob "^7.1.6"
     rimraf "^3.0.2"
 
-"@ssen/publish-packages@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/publish-packages/-/publish-packages-2.4.0.tgz#36bdf2b127b583fbec6d779a2c342ed1082e1259"
-  integrity sha512-hg7lh9kRf3hbVCuINs8bDTr/jAANW3qwnJYlluzWtA/dvI3buPvDmqG8s0WniIw9qzFLjkDJudBER/24nAEwuA==
+"@ssen/promised@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/promised/-/promised-2.4.1.tgz#e67098a752d49f83ce1faffe0c8e25c57c4a462a"
+  integrity sha512-I5Esd2hkQ3CtNyEHEexkpKc8ETg76gOH3rwDDSAL9QiFjSNFXbX//H1PavF1A+eRFDxtn7JqifMLsv/tgcq5VA==
   dependencies:
-    "@ssen/flat-package-name" "^2.4.0"
+    glob "^7.1.6"
+    rimraf "^3.0.2"
+
+"@ssen/publish-packages@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/publish-packages/-/publish-packages-2.4.1.tgz#41b8e0a91aad50669e214aac20f21f528711c5a7"
+  integrity sha512-d/I1n7FtwxsQNtKyoJ71OLfcTraH8Gc0fxNy2C0sT4stJyphwZGFeYBtltqr7K74wzgDFYocUR5S31bEHhCcwg==
+  dependencies:
+    "@ssen/flat-package-name" "^2.4.1"
     fs-extra "^9.1.0"
     package-json "^6.5.0"
     prompts "^2.4.0"
     semver "^7.3.4"
     type-fest "^0.20.2"
 
-"@ssen/read-last-argv@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/read-last-argv/-/read-last-argv-2.4.0.tgz#7a0bd4cd6eb47463c41fc8c0d1a46aaa4e2d94b6"
-  integrity sha512-zLcnLlcTMgSxGzXpO9i0BKllk64pZovj6g0tIgV+y8mNn0yl4pYTpSUUXBKvsPMNCrKZ8xZRiD/JYacyVg+GRw==
+"@ssen/read-last-argv@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/read-last-argv/-/read-last-argv-2.4.1.tgz#a0f7afc4fe77b07c737242cee82ac409e2f8255b"
+  integrity sha512-W3uJtaEbY4PQ061O52CHaLT4qBSL78ODcZR0L55iMrGe6wkg7fp6rL4jhP6aLTwl/yg8ptpHx/HhSPaHQYMPmA==
 
-"@ssen/read-tsconfig@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/read-tsconfig/-/read-tsconfig-2.4.0.tgz#c10ed97c488f4982c6f4b1e3fe2ef75d848e7c6a"
-  integrity sha512-wD9XPuqFgxuEgiQU/sXWGc89iCHO1j51QQv1X8ZnKiPax2zPTdEZVW/+i+FHptEkeoFS+UDysl3Y5rskOx9VZw==
+"@ssen/read-tsconfig@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/read-tsconfig/-/read-tsconfig-2.4.1.tgz#20eec62ff20545a9139cbcdf72e08a54dcb05395"
+  integrity sha512-5OZZ1USkhLPky3401yh5PxkYVscg9y3HTZANnjEWcld+//kN2FHAXOu45YiVM2/Wk1kNvkBsqvJ7vemuIHzryQ==
   dependencies:
     typescript "^4.1.3"
 
-"@ssen/rewrite-src-path@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@ssen/rewrite-src-path/-/rewrite-src-path-2.4.0.tgz#a8819976b3e58a5a25688df3addd7e4c1bb18141"
-  integrity sha512-Ampo/6q6pJMHB4zMVl8Hbm33dFPEEjcpMHdblLAGDlF6WPtI23vpKbwAKoGUlEIwCQhko0LMmAgSXAqSfx8DTg==
+"@ssen/rewrite-src-path@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@ssen/rewrite-src-path/-/rewrite-src-path-2.4.1.tgz#ab5e0011f048c01d0b2fa784459291eb34e3f4fc"
+  integrity sha512-WZJcoKpcT1SEgGND+b9DLROTdZuxf16aQgDR36y7l6cf+Mq5Q2S7QkbMc9djm+JjIUNiBjjACEPTQvLtGYwiOg==
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
@@ -14719,21 +14727,21 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rocket-punch@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/rocket-punch/-/rocket-punch-2.4.0.tgz#4ad606fb9051d8e7ba1d88443796646f59140b80"
-  integrity sha512-NYGthavKTNlV9pglj8SCSVamBdxFath/N1YWc3/EzeVu7R3w/k6WEhoHTVzOaYMBd6u1eWiXaagaBjIw/oq+nw==
+rocket-punch@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/rocket-punch/-/rocket-punch-2.4.1.tgz#ac5e75f4592affb11d14c839cbc0c86dd31c31f2"
+  integrity sha512-WVfYwgAmFlJm6iif7hpSJVoejGyDATfMoj2FSYX1FcSQPMsvxCvoF73pNOY07weA2f9LT3g8xHBoxPU7Yf1OPQ==
   dependencies:
-    "@ssen/collect-dependencies" "^2.4.0"
-    "@ssen/extended-compiler-host" "^2.4.0"
-    "@ssen/flat-package-name" "^2.4.0"
-    "@ssen/import-path-rewrite-compiler-host" "^2.4.0"
-    "@ssen/jest-transform" "^2.4.0"
-    "@ssen/promised" "^2.4.0"
-    "@ssen/publish-packages" "^2.4.0"
-    "@ssen/read-last-argv" "^2.4.0"
-    "@ssen/read-tsconfig" "^2.4.0"
-    "@ssen/rewrite-src-path" "^2.4.0"
+    "@ssen/collect-dependencies" "^2.4.1"
+    "@ssen/extended-compiler-host" "^2.4.1"
+    "@ssen/flat-package-name" "^2.4.1"
+    "@ssen/import-path-rewrite-compiler-host" "^2.4.1"
+    "@ssen/jest-transform" "^2.4.1"
+    "@ssen/promised" "^2.4.1"
+    "@ssen/publish-packages" "^2.4.1"
+    "@ssen/read-last-argv" "^2.4.1"
+    "@ssen/read-tsconfig" "^2.4.1"
+    "@ssen/rewrite-src-path" "^2.4.1"
     chalk "^4.1.0"
     depcheck "^1.3.1"
     fs-extra "^9.1.0"
@@ -16576,15 +16584,20 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.1.3, typescript@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
-  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
+typescript@4.1.4, typescript@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.4.tgz#f058636e2f4f83f94ddaae07b20fd5e14598432f"
+  integrity sha512-+Uru0t8qIRgjuCpiSPpfGuhHecMllk5Zsazj5LZvVsEStEjmIRRBZe+jHjGQvsgS7M1wONy2PQXd67EMyV6acg==
 
 typescript@>=3.8.0:
   version "4.0.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
   integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+
+typescript@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
+  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
 
 unc-path-regex@^0.1.2:
   version "0.1.2"
