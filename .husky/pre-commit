@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn run markdown-source-import README.md "templates/**/*.md" "examples/**/*.md" --git-add
+yarn run lint-staged
+yarn workspace packages-template run precommit
