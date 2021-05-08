@@ -4,11 +4,11 @@
 
 ```sh
 # create a workspace directory
-npx generate-github-directory https://github.com/rocket-hangar/workspace-template my-project
+npx copy-github-directory workspace my-project
 cd my-project
 
 # create an app
-npx generate-github-directory https://github.com/rocket-hangar/rocket-punch-templates/tree/master/templates/packages my-packages
+npx copy-github-directory packages my-packages
 
 # add "my-packages" to workspaces of package.json
 
